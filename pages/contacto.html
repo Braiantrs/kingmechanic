@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../styles/Style.css">
+</head>
+<body>
+    <header>
+        <main>
+          <nav class="lista">
+            <section>
+              <img width="100px" src="../Assets/img/home/LogoMechanic.jpg" alt="Logo">          
+              <!-- Enlaces relativos -->
+                <ul>
+                  <li>
+                    <a href="../Index.html">Inicio</a>
+                  </li>
+                  <li>
+                    <a href="../pages/Contacto.html">Contacto</a>
+                  </li>
+                  <li>
+                    <a href="../pages/MecanicaGeneral.html">Mecanica General</a>
+                  </li>
+                  <li>   
+                    <a href="../pages/Restauraciones.html">Restauraciones</a>
+                  </li>
+                  <li>
+                    <a href="../pages/Potenciacion.html">Potenciacion</a>
+                  </li>
+                  <li>
+                    <a href="#pie">ir al pie de pagina</a>
+                  </li>
+                </ul>
+            </section>
+          </nav>
+        </main>
+    </header>
+    <section class="Contacto">
+        <h1>Contactese con Nosotros</h1>
+        <form action="enviar.php" method="post" enctype="text/plain">
+        <div>
+            <label for="name">Nombre</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="email">Mail</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="number">Número</label>
+            <input type="text" id="number">
+        </div>
+        <div>
+            <label class="Motivo" for="descripcion">Motivo</label>
+            <textarea name="Motivo" id="Motivo" cols="50" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="Archive">Foto</label>
+            <input type="file" name="Foto" id="Foto">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+
+    </section>
+    <footer id="pie">
+        <p>© 2024 - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
